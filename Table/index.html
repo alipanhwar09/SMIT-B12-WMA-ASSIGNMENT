@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Examples</title>
+    <style>
+        th{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #am{
+            background-color: yellow;
+        }
+        #pm{
+            background-color: rgba(95, 160, 95, 0.63);
+        }
+        td{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-weight: bold;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Table Different Examples</h1>
+    <table border="2px solid">
+        <tr>
+            <td>Level 1</td>
+            <td>Level 2</td>
+            <td>Level 3</td>
+            <td>Info</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td rowspan="6">System</td>
+            <td rowspan="4">System App</td>
+            <td rowspan="3">System Env</td>
+            <td>App Test</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            
+            <td>App Memory</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+           
+            <td>App Test</td>
+            <td>Bar</td>
+        </tr>
+        <tr>
+            
+            <td >System Env 2</td>
+            <td> App Test</td>
+            <td>Bar</td>
+        </tr>
+        <tr>
+            
+            <td rowspan="2">System Memory </td>
+            <td rowspan="2">Memory Test</td>
+            <td>Memory Func:</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            
+            <td>Apes Test</td>
+            <td>Foo</td>
+        </tr>
+    </table><br>
+    <h1>Time Schedule in Table</h1>
+    <table border="2px">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+           
+            
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+            
+        </tr>
+        <tr>
+        
+            <th>Begin</th>
+            <th>End</th>
+        
+
+        
+
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+
+            <td rowspan="2" id="am">8:00am</td>
+            <td rowspan="2" id="pm">5:00pm</td>
+            <td>Introduction To XML</td>
+        </tr>
+        <tr>
+           
+
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+
+            <td id="am">8:00am</td>
+            <td id="am">11:00am</td>
+            <td rowspan="2">Xpath</td>
+        </tr>
+        <tr>
+            <td id="am">11:00am</td>
+            <td id="pm">2:00pm</td>
+        </tr>
+        <tr>
+            <td id="pm">2:00pm</td>
+            <td id="pm">5:00pm</td>
+            <td>XSL Transformations</td>
+
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td id="am">8:00am</td>
+            <td id="pm">12:00pm</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+    <br><br>
+    <h1>Table Example</h1>
+    <h1>Ian's Time Table</h1>
+<table border="2px" dotted>
+    <tr>
+        <td colspan="2"></td>
+    
+        <td colspan="2"></td>
+
+        <td colspan="3">Morning</td>
+        <td>Lunch</td>
+        <td colspan="5">Afternoon</td>
+        
+        <td colspan="3">Evening</td>
+    
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td>9-10am</td>
+        <td>10-11am</td>
+        <td>11-12pm</td>
+        <td>1-2pm</td>
+        <td>2-3pm</td>
+        <td>3-4pm</td>
+        <td>4-5pm</td>
+        <td colspan="2">5-6pm</td>
+        <td colspan="">6-7pm</td>
+        <td>7-8pm</td>
+        <td>8-9pm</td>
+
+    </tr>
+    <tr>
+        <td rowspan="2">Work</td>
+        <td colspan="3">Monday</td>
+        <td colspan="3">Development Meeting</td>
+        <td></td>
+        <td colspan="3">Client Meeting</td>
+        <td colspan="2">Commute</td>
+        <td colspan="3">Free</td>
+    </tr>
+    <tr>
+        <!-- <td></td> -->
+        <td colspan="3">Tuesday</td>
+        <td colspan="3">In Office</td>
+        <td></td>
+        <td colspan="8">In Office</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Lecture</td>
+        <td colspan="3" >Wednesday</td>
+        <td colspan="3">CSC205</td>
+        <td></td>
+        <td colspan="8">Preparation</td>
+    </tr>
+    <tr>
+        <td colspan="3"  >Thursday</td>
+        <td colspan="3">NAM200</td>
+        <td ></td>
+        <td colspan="3">Tutorials For NAM200</td>
+        <td colspan="6">Free</td>
+    </tr>
+    <tr>
+       
+                <td>Friday</td>
+                <td colspan="3">Research</td>
+                <td colspan="3">Friday</td>
+                <td></td>
+                <td colspan="8">Research</td>
+
+    </tr>
+
+</table>
+</body>
+</html>
